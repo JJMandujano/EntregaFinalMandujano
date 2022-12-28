@@ -1,0 +1,107 @@
+.bg-seashell {
+    background-color: #ffedec;
+}
+
+.link-style {
+    color: #121b28;
+    font-size: 22px;
+    font-weight: 430;
+}
+
+nav img {
+    width: 60px;
+}
+
+.linkftr {
+    width: 16px;
+    margin-right: 10px;
+}
+
+.bg-bisque {
+    background-color: #cfdbce;
+    ;
+}
+
+.bg-silverchalice {
+    background-color: #adaaab;
+    ;
+}
+
+.bg-white {
+    background-color: #ffffff;
+    ;
+}
+
+.logoftr {
+    width: 10px;
+    margin-right: 4px;
+    margin-left: 6px;
+}
+
+.infoftr {
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    margin-left: 2px;
+}
+
+.imgnstrs {
+    width: 100%;
+}
+
+button {
+    background: transparent;
+    outline: none;
+    position: relative;
+    border: 2px solid #111;
+    border-radius: 3px;
+    padding: 15px 50px;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: 0.8em;
+
+}
+
+button::before {
+    content: attr(data-hover);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translate(-100%, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover::before {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+button .hover-me {
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover .hover-me {
+    opacity: 0;
+    transform: translate(100%, 0);
+}
+
+.cotiza {
+    text-decoration: none;
+    color: #000;
+}
+
+.cotiza a {
+    color: #000;
+}
+
+.cotiza a:visited {
+    color: #111;
+}
+
+.row {
+    margin-right: 0px !important;
+}
