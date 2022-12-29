@@ -13,7 +13,7 @@ nav img {
 }
 
 .linkftr {
-    width: 16px;
+    width: 50px;
     margin-right: 10px;
 }
 
@@ -33,13 +33,19 @@ nav img {
 }
 
 .logoftr {
-    width: 10px;
+    width: 25px;
+    margin-right: 4px;
+    margin-left: 6px;
+}
+
+.logocontac {
+    width: 30px;
     margin-right: 4px;
     margin-left: 6px;
 }
 
 .infoftr {
-    font-size: 8px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     margin-left: 2px;
@@ -62,6 +68,22 @@ button {
     letter-spacing: 3px;
     font-weight: 800;
     font-size: 0.8em;
+
+}
+
+form-button {
+    background: transparent;
+    outline: none;
+    position: relative;
+    border: 2px solid #111;
+    border-radius: 3px;
+    padding: 15px 50px;
+    overflow: hidden;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: 0.6em;
 
 }
 
